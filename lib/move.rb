@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
-  expect(user_input) actual("5".to_i)
+  expect(user_input) = user_input.to_i
 end
 
 def move()
